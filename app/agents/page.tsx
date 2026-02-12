@@ -36,9 +36,10 @@ export default function AgentsPage() {
                             </div>
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                                 <Image
-                                    src="https://placehold.co/800x600/png?text=Listing+Agent+Strategy"
+                                    src="/images/agents-listing-strategy.jpg"
                                     alt="Listing Agent looking at tablet"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -50,9 +51,10 @@ export default function AgentsPage() {
                             <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border group">
                                 <div className="relative h-48 bg-gray-200">
                                     <Image
-                                        src="https://placehold.co/600x400/png?text=Residential+Home"
+                                        src="/images/agents-residential-home.jpg"
                                         alt="Residential Home"
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform group-hover:scale-105"
                                     />
                                     <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Listed for: 120 Days</div>
@@ -75,9 +77,10 @@ export default function AgentsPage() {
                             <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border group">
                                 <div className="relative h-48 bg-gray-200">
                                     <Image
-                                        src="https://placehold.co/600x400/png?text=Apartment+Complex"
+                                        src="/images/agents-apartment-complex.jpg"
                                         alt="80 Unit Apartment Complex"
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform group-hover:scale-105"
                                     />
                                     <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Listed for: 45 Days</div>
@@ -100,9 +103,10 @@ export default function AgentsPage() {
                             <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border group">
                                 <div className="relative h-48 bg-gray-200">
                                     <Image
-                                        src="https://placehold.co/600x400/png?text=Raw+Ranch+Land"
+                                        src="/images/agents-ranch-land.jpg"
                                         alt="Raw/Ranch Land"
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform group-hover:scale-105"
                                     />
                                     <div className="absolute top-4 left-4 bg-blue-600 text-white text-xs px-2 py-1 rounded">Price Cut: $50,000 (July 1st)</div>
@@ -130,9 +134,10 @@ export default function AgentsPage() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl order-2 lg:order-1">
                                 <Image
-                                    src="https://placehold.co/800x600/png?text=Buyers+Agent+Meeting"
+                                    src="/images/agents-buyers-meeting.jpg"
                                     alt="Buyers Agent meeting with client"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -154,9 +159,10 @@ export default function AgentsPage() {
                             <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border group">
                                 <div className="relative h-48 bg-gray-200">
                                     <Image
-                                        src="https://placehold.co/600x400/png?text=Residential+Home"
+                                        src="/images/agents-residential-home.jpg"
                                         alt="Residential Home"
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform group-hover:scale-105"
                                     />
                                 </div>
@@ -178,9 +184,10 @@ export default function AgentsPage() {
                             <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border group">
                                 <div className="relative h-48 bg-gray-200">
                                     <Image
-                                        src="https://placehold.co/600x400/png?text=Apartment+Complex"
+                                        src="/images/agents-apartment-complex.jpg"
                                         alt="80 Unit Apartment Complex"
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform group-hover:scale-105"
                                     />
                                 </div>
@@ -202,9 +209,10 @@ export default function AgentsPage() {
                             <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border group">
                                 <div className="relative h-48 bg-gray-200">
                                     <Image
-                                        src="https://placehold.co/600x400/png?text=Raw+Ranch+Land"
+                                        src="/images/agents-ranch-land.jpg"
                                         alt="Raw/Ranch Land"
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform group-hover:scale-105"
                                     />
                                 </div>

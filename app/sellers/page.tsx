@@ -33,9 +33,10 @@ export default function SellersPage() {
                         <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border">
                             <div className="relative h-48 bg-gray-200">
                                 <Image
-                                    src="https://placehold.co/600x400/png?text=Residential+Home"
+                                    src="/images/sellers-residential-home.jpg"
                                     alt="Residential Home"
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Private Office</div>
@@ -57,9 +58,10 @@ export default function SellersPage() {
                         <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border">
                             <div className="relative h-48 bg-gray-200">
                                 <Image
-                                    src="https://placehold.co/600x400/png?text=Apartment+Complex"
+                                    src="/images/sellers-apartment-complex.jpg"
                                     alt="80-Unit Apartment Complex"
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Residential</div>
@@ -81,9 +83,10 @@ export default function SellersPage() {
                         <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border">
                             <div className="relative h-48 bg-gray-200">
                                 <Image
-                                    src="https://placehold.co/600x400/png?text=Raw+Ranch+Land"
+                                    src="/images/sellers-ranch-land.jpg"
                                     alt="Raw/Ranch Land"
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Land - Commercial</div>
@@ -184,9 +187,10 @@ export default function SellersPage() {
                         </div>
                         <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl group cursor-pointer">
                             <Image
-                                src="https://placehold.co/800x450/png?text=Video+Thumbnail"
+                                src="/images/sellers-video-thumbnail.jpg"
                                 alt="Video Poster"
                                 fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
