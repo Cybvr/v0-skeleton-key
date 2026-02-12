@@ -1,15 +1,16 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
 const footerLinks = {
   About: [
-    { label: "For Sellers", href: "#" },
-    { label: "For Buyers", href: "#" },
-    { label: "For Agents", href: "#" },
-    { label: "FAQs", href: "#" },
-    { label: "Contact", href: "#" },
-    { label: "Blog", href: "#" },
+    { label: "For Sellers", href: "/sellers" },
+    { label: "For Buyers", href: "/buyers" },
+    { label: "For Agents", href: "/agents" },
+    { label: "FAQs", href: "/faqs" },
+    { label: "Contact", href: "/contact" },
+    { label: "Blog", href: "/blog" },
   ],
 }
 
@@ -21,11 +22,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-1">
-              <svg width="24" height="24" viewBox="0 0 28 28" fill="none" className="text-foreground">
-                <rect width="28" height="28" rx="4" fill="currentColor" />
-                <path d="M8 8h4v12H8V8zm8 0h4v12h-4V8z" fill="hsl(var(--background))" />
-              </svg>
-              <span className="text-lg font-bold text-foreground">SkeletonKey</span>
+              <Image
+                src="/images/sklogo.svg"
+                alt="Skeleton Key Logo"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="h-10 w-auto object-contain"
+              />
             </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
               Skeleton Key revolutionizes real estate buying and selling by removing traditional banks, allowing sellers to earn more and buyers to pay less monthly.

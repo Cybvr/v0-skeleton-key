@@ -1,18 +1,19 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "For Sellers", href: "#sellers" },
-  { label: "For Buyers", href: "#buyers" },
-  { label: "For Agents", href: "#agents" },
-  { label: "FAQs", href: "#faqs" },
-  { label: "Contact", href: "#contact" },
-  { label: "Blog", href: "#blog" },
+  { label: "About", href: "/about" },
+  { label: "For Sellers", href: "/sellers" },
+  { label: "For Buyers", href: "/buyers" },
+  { label: "For Agents", href: "/agents" },
+  { label: "FAQs", href: "/faqs" },
+  { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
 ]
 
 export default function Header() {
@@ -23,11 +24,14 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <div className="flex items-center gap-1">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="text-foreground">
-              <rect width="28" height="28" rx="4" fill="currentColor" />
-              <path d="M8 8h4v12H8V8zm8 0h4v12h-4V8z" fill="hsl(var(--background))" />
-            </svg>
-            <span className="text-xl font-bold tracking-tight text-foreground">SkeletonKey</span>
+            <Image
+              src="/images/sklogo.svg"
+              alt="Skeleton Key Logo"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="h-10 w-auto object-contain"
+            />
           </div>
         </Link>
 
