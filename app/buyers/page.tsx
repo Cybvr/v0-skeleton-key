@@ -31,9 +31,10 @@ export default function BuyersPage() {
                         <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border">
                             <div className="relative h-48 bg-gray-200">
                                 <Image
-                                    src="https://placehold.co/600x400/png?text=Residential+Home"
+                                    src="/images/buyers-residential-home.jpg"
                                     alt="Residential Home"
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Residential Home</div>
@@ -52,9 +53,10 @@ export default function BuyersPage() {
                         <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border">
                             <div className="relative h-48 bg-gray-200">
                                 <Image
-                                    src="https://placehold.co/600x400/png?text=Apartment+Complex"
+                                    src="/images/buyers-apartment-complex.jpg"
                                     alt="80-Unit Apartment Complex"
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">80 Unit Apartment Complex</div>
@@ -73,9 +75,10 @@ export default function BuyersPage() {
                         <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-border">
                             <div className="relative h-48 bg-gray-200">
                                 <Image
-                                    src="https://placehold.co/600x400/png?text=Raw+Ranch+Land"
+                                    src="/images/buyers-ranch-land.jpg"
                                     alt="Raw/Ranch Land"
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute top-4 left-4 bg-black/80 text-white text-xs px-2 py-1 rounded">Raw/Ranch Land</div>
@@ -155,9 +158,10 @@ export default function BuyersPage() {
                         </div>
                         <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl group cursor-pointer">
                             <Image
-                                src="https://placehold.co/800x450/png?text=Why+Choose+Skeleton+Key+Video"
+                                src="/images/buyers-video-thumbnail.jpg"
                                 alt="Video Poster"
                                 fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
